@@ -1,0 +1,1 @@
+E:\Learn\c#\DesignPatterns\DesignPatterns\DesignPatterns\bin\Debug\DesignPatterns.exe.config
