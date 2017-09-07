@@ -6,12 +6,11 @@ using System.Threading.Tasks;
 
 namespace DesignPatterns.Factory
 {
-    class FactoryMain
+    class AllionCarFactory : ToyotaCarFactory
     {
-        static void Main(string[] args)
+        public override ToyotaCar GetCar()
         {
-            ToyotaCarFactory factory = new AllionCarFactory();
-            new CarAssembler().AssembleCar(factory);
+            return new Allion();
         }
     }
 }

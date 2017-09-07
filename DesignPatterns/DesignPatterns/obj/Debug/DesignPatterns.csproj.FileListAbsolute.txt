@@ -1,1 +1,5 @@
 E:\Learn\c#\DesignPatterns\DesignPatterns\DesignPatterns\bin\Debug\DesignPatterns.exe.config
+E:\Learn\c#\DesignPatterns\DesignPatterns\DesignPatterns\bin\Debug\DesignPatterns.exe
+E:\Learn\c#\DesignPatterns\DesignPatterns\DesignPatterns\bin\Debug\DesignPatterns.pdb
+E:\Learn\c#\DesignPatterns\DesignPatterns\DesignPatterns\obj\Debug\DesignPatterns.exe
+E:\Learn\c#\DesignPatterns\DesignPatterns\DesignPatterns\obj\Debug\DesignPatterns.pdb
