@@ -9,5 +9,7 @@ namespace DesignPatterns.Factory
     public abstract class ToyotaCarFactory
     {
         public abstract ToyotaCar GetCar();
+
+        public abstract ToyotaCar GetCar(string type);
     }
 }

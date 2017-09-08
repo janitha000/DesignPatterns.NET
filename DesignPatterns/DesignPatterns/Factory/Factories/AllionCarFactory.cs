@@ -12,5 +12,10 @@ namespace DesignPatterns.Factory
         {
             return new Allion();
         }
+
+        public override ToyotaCar GetCar(string type)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

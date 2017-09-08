@@ -12,5 +12,10 @@ namespace DesignPatterns.Factory.Factories
         {
             return new Corolla();
         }
+
+        public override ToyotaCar GetCar(string type)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
