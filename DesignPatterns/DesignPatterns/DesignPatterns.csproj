@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>DesignPatterns.Observer.ObserverMain</StartupObject>
+    <StartupObject>DesignPatterns.Builder.BuilderMain</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Builder\BuilderMain.cs" />
+    <Compile Include="Builder\Builders\CarBuilder.cs" />
+    <Compile Include="Builder\Builders\MotorCycleBuilder.cs" />
+    <Compile Include="Builder\Shop.cs" />
+    <Compile Include="Builder\Vehicle.cs" />
+    <Compile Include="Builder\VehicleBuilder.cs" />
     <Compile Include="Factory\Factories\CommonCarFactory.cs" />
     <Compile Include="Factory\Factories\CorollaCarFactory.cs" />
     <Compile Include="Factory\Products\Allion.cs" />
