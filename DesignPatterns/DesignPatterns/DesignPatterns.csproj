@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>DesignPatterns.Proxy.ProxyMain</StartupObject>
+    <StartupObject>DesignPatterns.State.StateMain</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -73,14 +73,16 @@
     <Compile Include="Proxy\Math.cs" />
     <Compile Include="Proxy\MathProxy.cs" />
     <Compile Include="Proxy\ProxyMain.cs" />
-    <Compile Include="Singleton\Singleton.cs" />
+    <Compile Include="State\Account.cs" />
+    <Compile Include="State\State.cs" />
+    <Compile Include="State\StateMain.cs" />
+    <Compile Include="State\States\GreenState.cs" />
+    <Compile Include="State\States\RedState.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Template\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="Factory\Architecture\factory.PNG" />
     <Content Include="Factory\Architecture\factory2.PNG" />
