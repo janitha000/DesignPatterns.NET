@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>DesignPatterns.State.StateMain</StartupObject>
+    <StartupObject>DesignPatterns.RIP.RIPMain</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -73,6 +73,11 @@
     <Compile Include="Proxy\Math.cs" />
     <Compile Include="Proxy\MathProxy.cs" />
     <Compile Include="Proxy\ProxyMain.cs" />
+    <Compile Include="RIP%28Replace If with Polyphormism%29\AnimalFactory.cs" />
+    <Compile Include="RIP%28Replace If with Polyphormism%29\Entities\Dog.cs" />
+    <Compile Include="RIP%28Replace If with Polyphormism%29\IAnimal.cs" />
+    <Compile Include="RIP%28Replace If with Polyphormism%29\Entities\Cat.cs" />
+    <Compile Include="RIP%28Replace If with Polyphormism%29\RIPMain.cs" />
     <Compile Include="State\Account.cs" />
     <Compile Include="State\State.cs" />
     <Compile Include="State\StateMain.cs" />
