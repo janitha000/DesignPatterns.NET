@@ -10,12 +10,11 @@ namespace DesignPatterns.RIP
     {
         static void Main(string[] args)
         {
-            AnimalFactory factory = new AnimalFactory();
 
-            IAnimal cat = factory.Create(0);
+            IAnimal cat = AnimalFactory.Create(0);
             cat.Bark();
 
-            IAnimal dog = factory.Create(1);
+            IAnimal dog = AnimalFactory.Create(1);
             dog.Bark();
         }
     }

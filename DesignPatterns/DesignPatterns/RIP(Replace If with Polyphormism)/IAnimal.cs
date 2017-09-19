@@ -12,5 +12,7 @@ namespace DesignPatterns.RIP
         int Age { get; set; }
         string Sound { get; set; }
         void Bark();
+
+        IAnimal Clone();
     }
 }

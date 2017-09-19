@@ -73,6 +73,7 @@
     <Compile Include="Proxy\Math.cs" />
     <Compile Include="Proxy\MathProxy.cs" />
     <Compile Include="Proxy\ProxyMain.cs" />
+    <Compile Include="RIP%28Replace If with Polyphormism%29\AnimalBase.cs" />
     <Compile Include="RIP%28Replace If with Polyphormism%29\AnimalFactory.cs" />
     <Compile Include="RIP%28Replace If with Polyphormism%29\Entities\Dog.cs" />
     <Compile Include="RIP%28Replace If with Polyphormism%29\IAnimal.cs" />

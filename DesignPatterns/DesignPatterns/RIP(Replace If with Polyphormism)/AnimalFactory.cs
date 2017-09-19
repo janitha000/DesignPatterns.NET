@@ -6,19 +6,24 @@ using System.Threading.Tasks;
 
 namespace DesignPatterns.RIP
 {
-    class AnimalFactory
+    static class AnimalFactory
     {
-        private List<IAnimal> animals = new List<IAnimal>();
+        private static List<IAnimal> animals = null;
 
-        public AnimalFactory()
+        private static void LoadAnimals()
         {
+            animals = new List<IAnimal>();
             animals.Add(new Cat());
             animals.Add(new Dog());
         }
 
-        public IAnimal Create(int animalType)
+        public static IAnimal Create(int animalType)
         {
-            return animals[animalType];
+            if(animals == null)
+            {
+                LoadAnimals();
+            }
+            return animals[animalType].Clone();
         }
 
         //public IAnimal Create(int animalType)
