@@ -63,6 +63,11 @@
     <Compile Include="Factory\Factories\AllionCarFactory.cs" />
     <Compile Include="IOC\ApplePhone.cs" />
     <Compile Include="IOC\Communication.cs" />
+    <Compile Include="IOC\DI\Constructor\Communication.cs" />
+    <Compile Include="IOC\DI\Method\Communication.cs" />
+    <Compile Include="IOC\DI\Property\Communication.cs" />
+    <Compile Include="IOC\DI\ServiceLocator\Communication.cs" />
+    <Compile Include="IOC\DI\ServiceLocator\PhoneLocator.cs" />
     <Compile Include="IOC\IOCMain.cs" />
     <Compile Include="IOC\IPhone.cs" />
     <Compile Include="IOC\SamsungPhone.cs" />
