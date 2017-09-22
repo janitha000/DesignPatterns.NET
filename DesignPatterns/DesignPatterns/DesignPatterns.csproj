@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>DesignPatterns.RIP.RIPMain</StartupObject>
+    <StartupObject>DesignPatterns.NullObject.NullObjectMain</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -61,6 +61,11 @@
     <Compile Include="Factory\FactoryMain.cs" />
     <Compile Include="Factory\ToyotaCar.cs" />
     <Compile Include="Factory\Factories\AllionCarFactory.cs" />
+    <Compile Include="NullObject\AnimalFactory.cs" />
+    <Compile Include="NullObject\Cat.cs" />
+    <Compile Include="NullObject\IAnimal.cs" />
+    <Compile Include="NullObject\NullAnimal.cs" />
+    <Compile Include="NullObject\NullObjectMain.cs" />
     <Compile Include="Observer\Observer.cs" />
     <Compile Include="Observer\ObserverMain.cs" />
     <Compile Include="Observer\Observers\kickass.cs" />
