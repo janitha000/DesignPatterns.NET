@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>DesignPatterns.NullObject.NullObjectMain</StartupObject>
+    <StartupObject>DesignPatterns.IOC.IOCMain</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -61,6 +61,11 @@
     <Compile Include="Factory\FactoryMain.cs" />
     <Compile Include="Factory\ToyotaCar.cs" />
     <Compile Include="Factory\Factories\AllionCarFactory.cs" />
+    <Compile Include="IOC\ApplePhone.cs" />
+    <Compile Include="IOC\Communication.cs" />
+    <Compile Include="IOC\IOCMain.cs" />
+    <Compile Include="IOC\IPhone.cs" />
+    <Compile Include="IOC\SamsungPhone.cs" />
     <Compile Include="NullObject\AnimalFactory.cs" />
     <Compile Include="NullObject\Cat.cs" />
     <Compile Include="NullObject\IAnimal.cs" />
