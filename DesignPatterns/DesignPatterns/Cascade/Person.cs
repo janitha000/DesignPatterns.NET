@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DesignPatterns.Cascade
 {
-    class Person
+    class Mail
     {
         //public void Talk()
         //{
@@ -28,28 +28,33 @@ namespace DesignPatterns.Cascade
         //    Console.WriteLine("Higerrrrrrrr");
         //}
 
-        public Person Talk()
+        public Mail To()
         {
-            Console.WriteLine("Hello");
+            Console.WriteLine("To");
             return this;
         }
 
-        public Person Sleep()
+        public Mail By()
         {
-            Console.WriteLine("Hello");
+            Console.WriteLine("By");
             return this;
         }
 
-        public Person Walk()
+        public Mail Body()
         {
-            Console.WriteLine("Hello");
+            Console.WriteLine("Body");
             return this;
         }
 
-        public Person Jump()
+        public Mail CC()
         {
-            Console.WriteLine("Hello");
+            Console.WriteLine("CC");
             return this;
+        }
+
+        public void Send()
+        {
+            Console.WriteLine("Mail Sent!!!");
         }
     }
 }

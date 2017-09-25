@@ -56,6 +56,7 @@
     <Compile Include="Builder\Shop.cs" />
     <Compile Include="Builder\Vehicle.cs" />
     <Compile Include="Builder\VehicleBuilder.cs" />
+    <Compile Include="Cascade Lambda\CascadeLambdaMain.cs" />
     <Compile Include="Cascade\CascadeMain.cs" />
     <Compile Include="Cascade\Person.cs" />
     <Compile Include="Factory\Factories\CommonCarFactory.cs" />

@@ -10,14 +10,15 @@ namespace DesignPatterns.Cascade
     {
         static void Main(string[] args)
         {
-            Person person = new Person();
+            Mail person = new Mail();
 
-            person.Talk();
-            person.Walk();
-            person.Sleep();
-            person.Jump();
+            person.To();
+            person.By();
+            person.CC();
+            person.Body();
+            person.Send();
 
-            new Person().Talk().Walk().Sleep().Jump();
+            new Mail().To().By().CC().Body().Send();
         }
     }
 }
