@@ -92,6 +92,7 @@
     <Compile Include="Observer\Observers\thepiratebay.cs" />
     <Compile Include="Observer\Store.cs" />
     <Compile Include="Observer\Subjects\MovieStore.cs" />
+    <Compile Include="Pluggable\PluggableMain.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Proxy\IMath.cs" />
