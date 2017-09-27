@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>DesignPatterns.AroundWithLambda.AroundMain</StartupObject>
+    <StartupObject>DesignPatterns.Generics.GenericsMain</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -73,6 +73,21 @@
     <Compile Include="Factory\FactoryMain.cs" />
     <Compile Include="Factory\ToyotaCar.cs" />
     <Compile Include="Factory\Factories\AllionCarFactory.cs" />
+    <Compile Include="Generics\GenericsMain.cs" />
+    <Compile Include="Generics\With Generics\DocumentProcessor.cs" />
+    <Compile Include="Generics\With Generics\IDocumentProcessor.cs" />
+    <Compile Include="Generics\With Generics\IDocumentTranslator.cs" />
+    <Compile Include="Generics\With Generics\TextDocumentTranslator.cs" />
+    <Compile Include="Generics\Wothout Generics\IPDFDocumentTranslator.cs" />
+    <Compile Include="Generics\Wothout Generics\IPDFProcessor.cs" />
+    <Compile Include="Generics\Wothout Generics\ITextDocumentProcessor.cs" />
+    <Compile Include="Generics\Wothout Generics\ITextDocumentTranslator.cs" />
+    <Compile Include="Generics\Wothout Generics\PDFDocument.cs" />
+    <Compile Include="Generics\Wothout Generics\PDFDocumentProccessor.cs" />
+    <Compile Include="Generics\Wothout Generics\PDFTranslator.cs" />
+    <Compile Include="Generics\Wothout Generics\TextDocument.cs" />
+    <Compile Include="Generics\Wothout Generics\TextDocumentProcessor.cs" />
+    <Compile Include="Generics\Wothout Generics\TextDocumentTranslator.cs" />
     <Compile Include="IOC\ApplePhone.cs" />
     <Compile Include="IOC\Communication.cs" />
     <Compile Include="IOC\DI\Constructor\Communication.cs" />
