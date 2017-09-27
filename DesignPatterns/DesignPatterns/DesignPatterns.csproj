@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>DesignPatterns.Delegate.DelegateMain</StartupObject>
+    <StartupObject>DesignPatterns.AroundWithLambda.AroundMain</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -50,6 +50,8 @@
     <Compile Include="Adaptor\AdaptorMain.cs" />
     <Compile Include="Adaptor\Animal.cs" />
     <Compile Include="Adaptor\Human.cs" />
+    <Compile Include="AroundWithLambda\AroundMain.cs" />
+    <Compile Include="AroundWithLambda\Database.cs" />
     <Compile Include="Builder\BuilderMain.cs" />
     <Compile Include="Builder\Builders\CarBuilder.cs" />
     <Compile Include="Builder\Builders\MotorCycleBuilder.cs" />
