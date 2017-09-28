@@ -74,6 +74,11 @@
     <Compile Include="Factory\ToyotaCar.cs" />
     <Compile Include="Factory\Factories\AllionCarFactory.cs" />
     <Compile Include="Generics\GenericsMain.cs" />
+    <Compile Include="Generics\More Generic\GenericDocumentTranslator.cs" />
+    <Compile Include="Generics\More Generic\IContentExtractor.cs" />
+    <Compile Include="Generics\More Generic\IGenericDocumentTranslator.cs" />
+    <Compile Include="Generics\More Generic\PDFContentExtrator.cs" />
+    <Compile Include="Generics\More Generic\TextContentExtractor.cs" />
     <Compile Include="Generics\With Generics\DocumentProcessor.cs" />
     <Compile Include="Generics\With Generics\IDocumentProcessor.cs" />
     <Compile Include="Generics\With Generics\IDocumentTranslator.cs" />

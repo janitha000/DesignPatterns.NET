@@ -1,4 +1,5 @@
-﻿using DesignPatterns.Generics.With_Generics;
+﻿using DesignPatterns.Generics.More_Generic;
+using DesignPatterns.Generics.With_Generics;
 using DesignPatterns.Generics.Wothout_Generics;
 using System;
 using System.Collections.Generic;
@@ -24,6 +25,10 @@ namespace DesignPatterns.Generics
                 new TextDocumentTranslator());
             processor2.Process(document);
 
+            //WithMoreGenerics
+            var genericTranslator = new GenericDocumentTranslator<TextDocument>(
+                new TextContentExtractor());
+            genericTranslator.Translate(document, "EN");
         }
     }
 }
