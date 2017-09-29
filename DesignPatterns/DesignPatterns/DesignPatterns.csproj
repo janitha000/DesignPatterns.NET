@@ -127,6 +127,13 @@
     <Compile Include="RIP%28Replace If with Polyphormism%29\IAnimal.cs" />
     <Compile Include="RIP%28Replace If with Polyphormism%29\Entities\Cat.cs" />
     <Compile Include="RIP%28Replace If with Polyphormism%29\RIPMain.cs" />
+    <Compile Include="SOLID\SRP\WithSRP\IAssembleService.cs" />
+    <Compile Include="SOLID\SRP\WithSRP\IDeliverService.cs" />
+    <Compile Include="SOLID\SRP\NotSRP\Factory.cs" />
+    <Compile Include="SOLID\SRP\NotSRP\Phone.cs" />
+    <Compile Include="SOLID\SRP\WithSRP\LCDFactory.cs" />
+    <Compile Include="SOLID\SRP\WithSRP\SRPFactory.cs" />
+    <Compile Include="SOLID\SRP\SRPMain.cs" />
     <Compile Include="State\Account.cs" />
     <Compile Include="State\State.cs" />
     <Compile Include="State\StateMain.cs" />
