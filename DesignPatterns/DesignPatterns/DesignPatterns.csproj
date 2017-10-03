@@ -114,6 +114,14 @@
     <Compile Include="Observer\Observers\thepiratebay.cs" />
     <Compile Include="Observer\Store.cs" />
     <Compile Include="Observer\Subjects\MovieStore.cs" />
+    <Compile Include="Open-Closed\With\AddStratergy.cs" />
+    <Compile Include="Open-Closed\With\IStratergy.cs" />
+    <Compile Include="Open-Closed\Without\Calculator.cs" />
+    <Compile Include="Open-Closed\OpenClosedMain.cs" />
+    <Compile Include="Open-Closed\Order.cs" />
+    <Compile Include="Open-Closed\With\IWithCalculator.cs" />
+    <Compile Include="Open-Closed\With\SubStratergy.cs" />
+    <Compile Include="Open-Closed\With\WithCalculator.cs" />
     <Compile Include="Pluggable\PluggableMain.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
