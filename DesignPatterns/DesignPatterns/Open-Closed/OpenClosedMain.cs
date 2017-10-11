@@ -23,9 +23,6 @@ namespace DesignPatterns.Open_Closed
 
             WithCalculator calculator = new WithCalculator(rules);
             calculator.Calculate(order1);
-
-
-
         }
     }
 }

@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>DesignPatterns.Generics.GenericsMain</StartupObject>
+    <StartupObject>DesignPatterns.Visitor.VisitorMain</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -147,6 +147,13 @@
     <Compile Include="State\StateMain.cs" />
     <Compile Include="State\States\GreenState.cs" />
     <Compile Include="State\States\RedState.cs" />
+    <Compile Include="Visitor\Entites\BritishTime.cs" />
+    <Compile Include="Visitor\Entites\ChineseTime.cs" />
+    <Compile Include="Visitor\ITimeCategory.cs" />
+    <Compile Include="Visitor\Entites\SinhalaTime.cs" />
+    <Compile Include="Visitor\IVisitor.cs" />
+    <Compile Include="Visitor\VisitorMain.cs" />
+    <Compile Include="Visitor\Visitors\SecondsVisitor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
